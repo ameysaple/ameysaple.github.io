@@ -50,8 +50,10 @@
   ],
   "dataGroups": [
     {
-      "name": "api",
-      "urls": ["https://aura.techizertech.in/api/**"],
+      "name": "from-api",
+      "urls": [
+        "/saveDemoMember"
+      ],
       "cacheConfig": {
         "maxSize": 100,
         "maxAge": "3d",
