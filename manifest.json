@@ -47,5 +47,17 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "urls": ["https://aura.techizertech.in/api/**"],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "1m",
+        "strategy": "freshness"
+      }
+    }
   ]
 }
