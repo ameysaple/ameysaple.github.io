@@ -47,19 +47,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "dataGroups": [
-    {
-      "name": "member-api",
-      "urls": [
-        "https://aura.techizertech.in/api/doctor/getAllDemoMembers"
-      ],
-      "cacheConfig": {
-        "maxSize": 100,
-        "maxAge": "3d",
-        "timeout": "1m",
-        "strategy": "freshness"
-      }
-    }
   ]
 }
