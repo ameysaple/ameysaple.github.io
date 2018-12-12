@@ -50,9 +50,9 @@
   ],
   "dataGroups": [
     {
-      "name": "from-api",
+      "name": "member-api",
       "urls": [
-        "/saveDemoMember"
+        "https://aura.techizertech.in/api/doctor/getAllDemoMembers"
       ],
       "cacheConfig": {
         "maxSize": 100,
