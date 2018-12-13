@@ -9,7 +9,7 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main.247b39ddaae5d40482a8.js",
+        "./main.1ccbb5c012606998bc5d.js",
         "./manifest.json",
         "./polyfills.20ab2d163684112c2aba.js",
         "./runtime.ec2944dd8b20ec099bf3.js",
@@ -36,7 +36,19 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "member-api",
+      "patterns": [
+        "https:\\/\\/aura\\.techizertech\\.in\\/api\\/doctor\\/getAllDemoMembers"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 60000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -47,9 +59,9 @@
     "./assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "./assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "./favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "./index.html": "4908cdc23a401c3b8be0889eed408c03eaffa2c9",
-    "./main.247b39ddaae5d40482a8.js": "45f4e4e7015d2feac775502e26f835a0adb53441",
-    "./manifest.json": "0cad5a54eaf276ea0dc78d7c8131705fbf486824",
+    "./index.html": "fbb9b735c4741ca4f1875f466ac4764a7afb1271",
+    "./main.1ccbb5c012606998bc5d.js": "7158ded7ce8c982b025ac1b99ebd2eb463786494",
+    "./manifest.json": "a46eb063dc2224d0507d815bc71b5a9a1266c15b",
     "./polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "./runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "./styles.6cacee6fe6a47f872a4d.css": "da6c39415e1b25a93b95a14fc8a1cac72196c09d"
