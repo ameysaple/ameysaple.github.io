@@ -10,6 +10,7 @@
         "./favicon.ico",
         "./index.html",
         "./main.1c568e70fd24c3bfacff.js",
+        "./manifest.json",
         "./polyfills.20ab2d163684112c2aba.js",
         "./runtime.ec2944dd8b20ec099bf3.js",
         "./styles.6cacee6fe6a47f872a4d.css"
@@ -48,6 +49,7 @@
     "./favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "./index.html": "0a3ce9e473a5a97834e8af1349440ef03a8fd53b",
     "./main.1c568e70fd24c3bfacff.js": "8b70d75fd528e6e0714ee462f39d41b36ff40185",
+    "./manifest.json": "a163520657706e84fe9bc07fbd131f71d7fea384",
     "./polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "./runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "./styles.6cacee6fe6a47f872a4d.css": "da6c39415e1b25a93b95a14fc8a1cac72196c09d"
