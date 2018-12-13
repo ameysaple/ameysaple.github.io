@@ -10,13 +10,6 @@
       "patterns": [
         "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
       ]
-    },
-    {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "urls": [],
-      "patterns": []
     }
   ],
   "dataGroups": [
