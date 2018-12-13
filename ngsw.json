@@ -7,14 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "./assets/icons/icon-128x128.png",
-        "./assets/icons/icon-144x144.png",
-        "./assets/icons/icon-152x152.png",
-        "./assets/icons/icon-192x192.png",
-        "./assets/icons/icon-384x384.png",
-        "./assets/icons/icon-512x512.png",
-        "./assets/icons/icon-72x72.png",
-        "./assets/icons/icon-96x96.png",
         "./favicon.ico",
         "./index.html",
         "./main.1c568e70fd24c3bfacff.js",
@@ -25,21 +17,25 @@
       "patterns": [
         "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
       ]
-    }
-  ],
-  "dataGroups": [
+    },
     {
-      "name": "member-api",
-      "patterns": [
-        "https:\\/\\/aura\\.techizertech\\.in\\/api\\/doctor\\/getAllDemoMembers"
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "./assets/icons/icon-128x128.png",
+        "./assets/icons/icon-144x144.png",
+        "./assets/icons/icon-152x152.png",
+        "./assets/icons/icon-192x192.png",
+        "./assets/icons/icon-384x384.png",
+        "./assets/icons/icon-512x512.png",
+        "./assets/icons/icon-72x72.png",
+        "./assets/icons/icon-96x96.png"
       ],
-      "strategy": "freshness",
-      "maxSize": 100,
-      "maxAge": 259200000,
-      "timeoutMs": 60000,
-      "version": 1
+      "patterns": []
     }
   ],
+  "dataGroups": [],
   "hashTable": {
     "./assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "./assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
