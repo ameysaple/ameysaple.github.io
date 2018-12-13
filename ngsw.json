@@ -40,7 +40,7 @@
     {
       "name": "member-api",
       "patterns": [
-        "https:\\/\\/aura\\.techizertech\\.in\\/api\\/doctor\\/getAllDemoMembers"
+        "https:\\/\\/pwademo\\.techizertech\\.in\\/aura-web\\/api\\/doctor\\/getAllDemoMembers"
       ],
       "strategy": "freshness",
       "maxSize": 100,
